@@ -1,0 +1,104 @@
+/* reset page basics */
+body {
+  font-family: Arial, sans-serif; /* text style */
+  margin: 0; /* remove extra space */
+  background: #000; /* black background */
+  color: #fff; /* white text */
+}
+
+/* navbar styling */
+.navbar {
+  display: flex; /* place items in a row */
+  justify-content: space-between; /* space between logo and menu */
+  align-items: center; /* vertical center */
+  background: #b91c1c; /* cherry red color */
+  padding: 15px; /* space inside navbar */
+}
+
+.navbar h1 {
+  margin: 0; /* removs the  default gap */
+}
+
+.navbar ul {
+  list-style: none; /* remove bullet points */
+  display: flex; /* put links in row */
+  gap: 15px; /* space between links */
+  margin: 0; /* remove extra gap */
+  padding: 0; /* remove default padding */
+}
+
+.navbar a {
+  text-decoration: none; /* remove underline */
+  color: white; /* white text */
+  font-weight: bold; /* bold links */
+}
+
+.navbar a:hover {
+  color: #ddd; /* lighter shade when mouse over */
+}
+
+/* hero section */
+.hero {
+  text-align: center; /* center text */
+  padding: 80px 20px; /* space inside section */
+  background: linear-gradient(to right, black, #b91c1c, black); /* gradient background */
+}
+
+.hero h2 {
+  font-size: 2.5em; /* make heading big */
+}
+
+.hero p {
+  margin: 15px 0; /* add space above and below */
+}
+
+.btn {
+  display: inline-block; /* behave like box */
+  padding: 10px 20px; /* inner space */
+  background: #b91c1c; /* red background */
+  color: white; /* white text */
+  border-radius: 5px; /* rounded edges */
+  text-decoration: none; /* no underline */
+}
+
+.btn:hover {
+  background: #991b1b; /* darker red on hover */
+}
+
+/* about section */
+.about {
+  padding: 50px 20px; /* spacing */
+  text-align: center; /* center text */
+}
+
+/* team section */
+.team {
+  padding: 50px 20px; /* spacing */
+  text-align: center; /* center text */
+}
+
+.team-grid {
+  display: flex; /* horizontal layout */
+  justify-content: center; /* center in middle */
+  gap: 20px; /* space between cards */
+  flex-wrap: wrap; /* move to next line if screen small */
+}
+
+.card {
+  background: #111; /* dark grey background */
+  padding: 20px; /* inner space */
+  border-radius: 10px; /* rounded corners */
+  width: 200px; /* fixed width */
+}
+
+.card img {
+  border-radius: 50%; /* make image circle */
+  margin-bottom: 10px; /* space under image */
+}
+
+/* footer */
+footer {
+  background: #b91c1c; /* red background */
+  text-align: center; /* center text */
+  padding: 15px; /* space inside the  footer */
+}
